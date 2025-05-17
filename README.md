@@ -31,9 +31,8 @@ Repositorio do minicurso ministrado na V Semana da Computação de Presidente Ep
 
 ## 6. Teste
 
-1. Copiar para servidor
-2. Boot
-3. Testar
+1. Boot na maquina virtual
+2. Testar
 
 ## 7. Aprimoramento...
 
