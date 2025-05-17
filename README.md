@@ -74,10 +74,13 @@ git clone --depth=1 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux
 http://linux-libre.fsfla.org/pub/linux-libre/releases
 
 ```
-wget http://linux-libre.fsfla.org/pub/linux-libre/releases/LATEST-5.12.N/linux-libre-5.12.12-gnu.tar.bz2
-tar -xvf linux-libre-5.12.12-gnu.tar.bz2
+wget http://linux-libre.fsfla.org/pub/linux-libre/releases/LATEST-5.13.N/linux-libre-5.13.19-gnu1.tar.bz2
 
-ln -s linux-5.12.12 linux
+tar -xvf linux-libre-5.13.19-gnu1.tar.bz2
+
+
+
+ln -s linux-5.13.19 linux
 ```
 ### Baixando fontes do Busybox
 
