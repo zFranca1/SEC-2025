@@ -147,9 +147,8 @@ make bzImage
 ### Copiando a imagem do kernel para diretório de trabalho
 
 ```
-cp arch/x86_4/boot/bzImage ../
+cp arch/x86/boot/bzImage ../
 ```
-
 
 ## 3. Busybox
 
@@ -271,7 +270,7 @@ find . | cpio -H newc -o | gzip -9 > ../rootfs.cpio.gz
 
 ```
 cd ~/minignu
-dd if=/dev/zero of=minignu.img bs=1k count=2048
+dd if=/dev/zero of=minignu.img bs=1k count=4096
 ```
 
 ### Criando FS FAT
